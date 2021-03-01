@@ -1,4 +1,4 @@
-# discordbot
+# LeoBot
 work in progress
 
 ## ideas:
