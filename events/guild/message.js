@@ -1,6 +1,6 @@
 module.exports = (Discord, client, message) => {
     // prefix is the "symbol" that the user uses to initiate commands to the bot
-    const prefix = "-";
+    const prefix = process.env.PREFIX;
 
     // checks if the message starts with the correct prefix and that the bot isn"t calling commands on its own
     // - if condition is false, we just return

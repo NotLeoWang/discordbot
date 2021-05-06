@@ -1,7 +1,7 @@
 // vars
 const Discord = require("discord.js");
-const config = require("./config.json");
-const fs = require("fs");
+require("dotenv").config();
+
 const client = new Discord.Client();
 
 // collection of commands the bot will use
@@ -13,4 +13,4 @@ client.events = new Discord.Collection();
 });
 
 // this has to be the last line of code in the file
-client.login(config.token);
+client.login(process.env.TOKEN);
