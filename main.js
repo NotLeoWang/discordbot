@@ -1,9 +1,10 @@
 // vars
 const Discord = require('discord.js');
+const config = require('./config.json');
 const client = new Discord.Client();
 
 // this is the "symbol" that the user uses to initiate commands to the bot
-const prefix = '-'
+const prefix = config.prefix;
 
 // arrow function to make Bot go online
 // run "node ." or "node main.js" in cmd
@@ -29,4 +30,4 @@ client.on('message', message => {
 });
 
 // this has to be the last line of code in the file
-client.login('ODM5NjgwMzk5NjE2OTAxMTIy.YJNLTw.oDlC0e5PZrsmGRrHsLEbvHumbYc');
+client.login(config.token);
