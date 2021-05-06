@@ -12,5 +12,12 @@ client.events = new Discord.Collection();
     require(`./handlers/${handler}`)(client, Discord);
 });
 
+// easter-egg hehe
+// client.on("message", (message) => { 
+//     if (message.content === "hi") {
+//         message.reply("you've been expelled from UBC OMEGALUL");
+//     }
+// });
+
 // this has to be the last line of code in the file
 client.login(process.env.TOKEN);
