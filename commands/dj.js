@@ -1,7 +1,7 @@
 module.exports = {
     name: "dj",
     description: "Command for dj",
-    execute(message, args) {
+    execute(client, message, args, Discord) {
 
         let role = "839742432253575198";
 

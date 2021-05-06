@@ -1,7 +1,7 @@
 module.exports = {
     name: "github",
     description: "Links the Github repository.",
-    execute(message, args) {
+    execute(client, message, args, Discord) {
         message.channel.send("https://github.com/NotLeoWang/LeoBot");
     }
 }
