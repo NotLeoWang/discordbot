@@ -9,3 +9,4 @@ work in progress
 
 ## sources:
 Credits to CodeLyon for tutorials (https://www.youtube.com/channel/UC08G-UJT58SbkdmcOYyOQVw)
+Great website for Discord JavaScript documentation: https://discord.js.org/#/
