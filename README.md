@@ -8,5 +8,5 @@ work in progress
 - other minigames (tic tac toe, rock paper scissors, etc)
 
 ## sources:
-Credits to CodeLyon for tutorials (https://www.youtube.com/channel/UC08G-UJT58SbkdmcOYyOQVw) \
-Great website for Discord JavaScript documentation: https://discord.js.org/#/
+Credits to CodeLyon for guidance  (https://www.youtube.com/channel/UC08G-UJT58SbkdmcOYyOQVw) \
+Discord JavaScript documentation: https://discord.js.org/#/
